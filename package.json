@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-lit-tailwindcss",
-  "version": "0.0.0-development",
+  "name": "@txfs19260817/rollup-plugin-lit-tailwindcss",
+  "version": "0.0.2",
   "description": "inject tailwindcss class into lit css tag",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -12,7 +12,6 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "semantic-release": "semantic-release --branches main",
     "test": "ava"
   },
   "keywords": [
@@ -21,28 +20,23 @@
     "lit",
     "tailwindcss"
   ],
-  "author": "mcha",
+  "author": "txfs19260817",
   "license": "MIT",
-  "peerDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.0",
-    "rollup": "^1.20.0 || ^2.0.0",
-    "tailwindcss": "^2.1.4"
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.0",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
   },
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.3",
-    "@rollup/pluginutils": "^4.1.0",
-    "autoprefixer": "^10.2.6",
     "ava": "^3.15.0",
-    "lit": "^2.0.0-rc.2",
-    "postcss": "^8.3.0",
-    "rollup": "^2.50.6",
-    "semantic-release": "^17.4.3",
-    "tailwindcss": "^2.1.4"
+    "lit": "latest",
+    "rollup": "^2.50.6"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcha-dev/lit-tailwindcss.git"
+    "url": "https://github.com/txfs19260817/lit-tailwindcss.git"
   },
-  "homepage": "https://github.com/mcha-dev/lit-tailwindcss"
+  "homepage": "https://github.com/txfs19260817/lit-tailwindcss"
 }
